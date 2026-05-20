@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Eleitoral Detalhado - Piauí</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; display: flex; height: 100vh; }
+        #map { flex: 2; height: 100%; }
+        #sidebar { flex: 1; height: 100%; overflow-y: auto; background: #f8f9fa; padding: 20px; box-sizing: border-box; border-left: 2px solid #ccc; }
+        h3 { color: #2c3e50; margin-top: 0; }
+        .filtro-container { margin: 15px 0; }
+        select { width: 100%; padding: 8px; font-size: 14px; border-radius: 4px; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; font-size: 14px; }
+        th { background-color: #34495e; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <div id="sidebar">
+        <h3>Painel de Resultados</h3>
+        <p>Clique em um ponto no mapa para ver o detalhamento por seções.</p>
+        
+        <div class="filtro-container" id="container-seletor" style="display:none;">
+            <label for="seletor-secao"><b>Filtrar por Seção Eleitoral:</b></label>
+            <select id="seletor-secao"></select>
+        </div>
+
+        <div id="conteudo-detalhes"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([-4.7567, -42.5746], 12);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Variável global para armazenar o local selecionado no momento
+        let localAtivo = null;
+
+        fetch('dados_votos.json')
+            .then(response => response.json())
+            .then(locais => {
+                locais.forEach(local => {
+                    const marker = L.marker([local.lat, local.lng]).addTo(map);
+                    marker.bindPopup(`<b>${local.nome}</b>`);
+
+                    marker.on('click', () => {
+                        localAtivo = local;
+                        inicializarPainelLateral();
+                    });
+                });
+            })
+            .catch(err => console.error("Erro ao carregar dados do mapa:", err));
+
+        // Cria o dropdown de seções com base no local clicado
+        function inicializarPainelLateral() {
+            const seletor = document.getElementById('seletor-secao');
+            document.getElementById('container-seletor').style.display = 'block';
+            
+            // Limpa as opções anteriores
+            seletor.innerHTML = '<option value="TODAS">Todas as Seções (Total do Local)</option>';
+            
+            // Ordena as seções numericamente
+            localAtivo.secoes.sort((a, b) => parseInt(a.numero_secao) - parseInt(b.numero_secao));
+
+            // Adiciona as seções do local no select
+            localAtivo.secoes.forEach(sec => {
+                seletor.innerHTML += `<option value="${sec.numero_secao}">Seção ${sec.numero_secao}</option>`;
+            });
+
+            // Escuta a mudança de seleção do usuário
+            seletor.onchange = () => {
+                renderizarTabelaVotos(seletor.value);
+            };
+
+            // Por padrão, renderiza todas as seções juntas ao clicar pela primeira vez
+            renderizarTabelaVotos("TODAS");
+        }
+
+        // Renderiza a tabela filtrada ou consolidada
+        function renderizarTabelaVotos(secaoAlvo) {
+            const container = document.getElementById('conteudo-detalhes');
+            let votosParaExibir = [];
+
+            if (secaoAlvo === "TODAS") {
+                // Se escolheu TODAS, precisamos agrupar e somar os votos de todas as seções do arquivo
+                let consolidado = {};
+                localAtivo.secoes.forEach(sec => {
+                    sec.votos.forEach(v => {
+                        let chave = `${v.ano}-${v.cargo}-${v.candidato}`;
+                        if (!consolidado[chave]) {
+                            consolidado[chave] = { ...v };
+                        } else {
+                            consolidado[chave].qtd += v.qtd;
+                        }
+                    });
+                });
+                votosParaExibir = Object.values(consolidado);
+            } else {
+                // Se escolheu uma seção específica, pega apenas os votos dela
+                const secaoEncontrada = localAtivo.secoes.find(sec => sec.numero_secao === secaoAlvo);
+                if (secaoEncontrada) {
+                    votosParaExibir = secaoEncontrada.votos;
+                }
+            }
+
+            // Ordena os votos do maior para o menor
+            votosParaExibir.sort((a, b) => b.qtd - a.qtd);
+
+            // Monta a tabela HTML
+            let html = `<h4>${localAtivo.nome}</h4>`;
+            html += `<h5>Exibindo: ${secaoAlvo === "TODAS" ? "Total Consolidado" : "Apenas Seção " + secaoAlvo}</h5>`;
+            html += `<table>
+                        <thead>
+                            <tr>
+                                <th>Ano</th>
+                                <th>Cargo</th>
+                                <th>Candidato</th>
+                                <th>Votos</th>
+                            </tr>
+                        </thead>
+                        <tbody>`;
+
+            votosParaExibir.forEach(voto => {
+                html += `<tr>
+                            <td>${voto.ano}</td>
+                            <td>${voto.cargo}</td>
+                            <td>${voto.candidato}</td>
+                            <td><b>${voto.qtd}</b></td>
+                         </tr>`;
+            });
+
+            html += `</tbody></table>`;
+            container.innerHTML = html;
+        }
+    </script>
+</body>
+</html>
