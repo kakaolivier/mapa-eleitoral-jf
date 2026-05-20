@@ -1,0 +1,9 @@
+# Ignorar as planilhas pesadas do TSE
+dados_votos.json
+pasta_votacao/
+pasta_urnas/
+
+# Ignorar pastas virtuais do Python (se houver)
+__pycache__/
+.venv/
+venv/

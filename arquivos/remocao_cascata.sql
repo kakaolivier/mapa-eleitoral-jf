@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS fato_votos CASCADE;
+DROP TABLE IF EXISTS dim_locais_votacao CASCADE;
