@@ -1,0 +1,3709 @@
+[
+  {
+    "nome": "ESCOLA MUNICIPAL CÍCERO LINO DO NASCIMENTO",
+    "municipio": "HUGO NAPOLEÃO",
+    "bairro": "CENTRO",
+    "zona": "52",
+    "lat": -5.8947232,
+    "lng": -42.6427106,
+    "secoes": [
+      {
+        "secao": "84",
+        "votos": [
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARCOS AURELIO PADUA RIBEIRO GONÇALVES DE SAMPAIO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLORENTINO ALVES VERAS NETO",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOEL RODRIGUES DA SILVA",
+            "qtd": 87
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "TERESA DOS SANTOS SOUSA BRITTO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FLÁVIO RODRIGUES NOGUEIRA JÚNIOR",
+            "qtd": 35
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "BESSAH ARAUJO COSTA REIS SÁ",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DE ANDRADE MAIA FILHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOSE WELLINGTON BARROSO DE ARAUJO DIAS",
+            "qtd": 106
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FRANCISCO JOSÉ ALVES DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EVANDRO TAJRA HIDD FILHO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JADYEL SILVA ALENCAR",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SAMANTHA CAVALCA SOBREIRA DUTRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "SILAS FREIRE PEREIRA E SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "HELIO RODRIGUES ALVES",
+            "qtd": 91
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "EVALDO GOMES DA SILVA",
+            "qtd": 10
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "TERESINHA DE SOUSA MEDEIROS SANTOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLAVIO RODRIGUES NOGUEIRA",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MERLONG SOLANO NOGUEIRA",
+            "qtd": 84
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "IDONEIL SANTANA MESQUITA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "THIAGO GOMES DUARTE",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 11
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "UNIĂO BRASIL",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Solidariedade",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "LEONARDO EULÁLIO DE ARAÚJO LIMA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "RAFAEL TAJRA FONTELES",
+            "qtd": 120
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELIAS PEREIRA LOPES",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ FRANCISCO PAES LANDIM",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PABLO DANTAS DE MOURA SANTOS",
+            "qtd": 23
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "NAIARA DE MORAES E SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARIA DAS GRACAS DE MORAES SOUZA NUNES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "REJANE RIBEIRO SOUSA DIAS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ÁTILA DE MELO LIRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCA CAMILA MARQUES DE ALMEIDA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JANAINNA PINTO MARQUES TAVARES",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "RAIMUNDO VIANA FILHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO NULO",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PAULO CEZAR DE SOUSA MARTINS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FERNANDA GABRIELLY COSTA GOMES",
+            "qtd": 11
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JEOVA BARBOSA DE CARVALHO ALENCAR",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WILSON NUNES MARTINS",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO FERRAZ ARCOVERDE",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARGARETE DE CASTRO COELHO",
+            "qtd": 41
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WALLACE RODRIGUES DE HOLANDA MIRANDA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARCUS VINICIUS MALHEIROS KALUME",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FÁBIO NÚŃEZ NOVO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 11
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "CARLOS AUGUSTO GOMES DE SOUZA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARDEN LUIS BRITO CAVALCANTE E MENESES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EDWALDO VIANA LIMA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ZENAIDE FERREIRA DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "GESSY KARLA LIMA BORGES FONSECA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "SILVIO MENDES DE OLIVEIRA FILHO",
+            "qtd": 79
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO NULO",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VINICIUS PONTES DO NASCIMENTO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FELIPE DE SOUZA REZENDE SAMPAIO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELISANGELA MARIA DOS SANTOS MOURA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "THALES COELHO PIMENTEL",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO CÉSAR DE CARVALHO LIMA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KLEBER MONTEZUMA FAGUNDES DOS SANTOS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "TIAGO MENDES VASCONCELOS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO DE ASSIS DE OLIVEIRA COSTA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "WILSON NUNES BRANDĂO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MIGUEL BORGES DE OLIVEIRA NETO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JÉSSICALINE ALVES RODRIGUES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO NIXON LOPES FROTA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANTONIO DE ARAUJO MARTINS NETO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DIAS DE CASTRO NETO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PETRUS EVELYN MARTINS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "DIEGO GOMES MELO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FABIO HENRIQUE MENDONÇA XAVIER DE OLIVEIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOSÉ ICEMAR LAVÔR NÉRI",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JAVANDA MIRANDA DE CARVALHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JOSÉ RIBAMAR DE MESQUITA",
+            "qtd": 36
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "FRANCISCO FANTANA SOARES DA SILVA",
+            "qtd": 18
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "EDUARDO BRUNO RIOS RODRIGUES",
+            "qtd": 24
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "IRISNEIDE GOMES DE CARVALHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ERNANDE PEREIRA LIMA",
+            "qtd": 15
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "LUCIANO BARRETO DE CARVALHO FILHO",
+            "qtd": 138
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "GEORGE GOMES DA SILVA",
+            "qtd": 13
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCOS JOSÉ BARBOSA DE SOUSA",
+            "qtd": 21
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO NULO",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DE JESUS MESQUITA ALVES",
+            "qtd": 48
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "DANIEL DE CARVALHO SILVA",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CARLOS LUIS TELES COUTINHO JUNIOR",
+            "qtd": 14
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO NULO",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ELIZANGELA RODRIGUES DOS SANTOS",
+            "qtd": 16
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "REILLANY SOARES PESSOA",
+            "qtd": 24
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCELO BENTO MOTTA",
+            "qtd": 12
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JEFERSON SAMUEL CARVALHO RAMOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "JOAQUIM ALVES DA SILVA",
+            "qtd": 127
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "RONE PETESON DE LIMA",
+            "qtd": 17
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JARDEL PEREIRA GOMES DA SILVA",
+            "qtd": 4
+          }
+        ]
+      },
+      {
+        "secao": "86",
+        "votos": [
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PAULO CEZAR DE SOUSA MARTINS",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "GESSY KARLA LIMA BORGES FONSECA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELISANGELA MARIA DOS SANTOS MOURA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FERNANDA GABRIELLY COSTA GOMES",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "LUIZ HENRIQUE SOUSA DE CARVALHO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SAMANTHA CAVALCA SOBREIRA DUTRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PABLO DANTAS DE MOURA SANTOS",
+            "qtd": 13
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FLÁVIO RODRIGUES NOGUEIRA JÚNIOR",
+            "qtd": 46
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOĂO MADISON NOGUEIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "LEONARDO EULÁLIO DE ARAÚJO LIMA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WELLINGTON  FRANCISCO RAULINO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOEL RODRIGUES DA SILVA",
+            "qtd": 89
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO NULO",
+            "qtd": 10
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JANAINNA PINTO MARQUES TAVARES",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "HELIO RODRIGUES ALVES",
+            "qtd": 95
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARGARETE DE CASTRO COELHO",
+            "qtd": 26
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WILSON NUNES MARTINS",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "ANTONIO JOSÉ FONTINELE DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JEOVA BARBOSA DE CARVALHO ALENCAR",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SEBASTIĂO ALVES TEIXEIRA LOPES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "REJANE RIBEIRO SOUSA DIAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELIAS PEREIRA LOPES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VIVIANE MOURA BEZERRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FABIO HENRIQUE MENDONÇA XAVIER DE OLIVEIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "DIEGO GOMES MELO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOSÉ ICEMAR LAVÔR NÉRI",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANTONIO DE ARAUJO MARTINS NETO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "RAIMUNDO DE SA URTIGA FILHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO WILLIAMS DE ASSIS SOARES GONÇALVES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "WILSON NUNES BRANDĂO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KLEBER MONTEZUMA FAGUNDES DOS SANTOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DIAS DE CASTRO NETO",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PETRUS EVELYN MARTINS",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FELIPE DE SOUZA REZENDE SAMPAIO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "SILAS FREIRE PEREIRA E SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARA DENISE ALVES PEREIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "SILVIO MENDES DE OLIVEIRA FILHO",
+            "qtd": 80
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "DEUSIMAR DO SOCORRO BRITO DE FARIAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "EVALDO GOMES DA SILVA",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "RAFAEL TAJRA FONTELES",
+            "qtd": 117
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARCOS AURELIO PADUA RIBEIRO GONÇALVES DE SAMPAIO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "MARIA DE LOURDES SOARES MELO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ANAMELKA ALBUQUERQUE CADENA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "BESSAH ARAUJO COSTA REIS SÁ",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOSE WELLINGTON BARROSO DE ARAUJO DIAS",
+            "qtd": 114
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SEVERO MARIA EULALIO NETO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FÁBIO DE MELO SÉRVIO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 12
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELMANO FERRER DE ALMEIDA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "TATIANA MARIA MELO GUIMARĂES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JADYEL SILVA ALENCAR",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCA DAS CHAGAS CASTELO BRANCO NETA DE SOUSA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOAO PAULO DA COSTA ARAUJO ALVES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELZUILA ALVES CALISTO",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DE ANDRADE MAIA FILHO",
+            "qtd": 12
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "CARLOS AUGUSTO GOMES DE SOUZA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "BARBARA CARVALHO DA SILVEIRA SOARES MACĘDO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "GEORGE MÁGNO CARVALHO CARDOSO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLAVIO RODRIGUES NOGUEIRA",
+            "qtd": 21
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MERLONG SOLANO NOGUEIRA",
+            "qtd": 93
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLORENTINO ALVES VERAS NETO",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "REILLANY SOARES PESSOA",
+            "qtd": 19
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO BRANCO",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCOS JOSÉ BARBOSA DE SOUSA",
+            "qtd": 25
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JAVANDA MIRANDA DE CARVALHO",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "IRISNEIDE GOMES DE CARVALHO",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JARDEL PEREIRA GOMES DA SILVA",
+            "qtd": 6
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "JOAQUIM ALVES DA SILVA",
+            "qtd": 100
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ELIZANGELA RODRIGUES DOS SANTOS",
+            "qtd": 11
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JOSÉ RIBAMAR DE MESQUITA",
+            "qtd": 32
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "GEORGE GOMES DA SILVA",
+            "qtd": 17
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCELO BENTO MOTTA",
+            "qtd": 25
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DE JESUS MESQUITA ALVES",
+            "qtd": 35
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "LUCIANO BARRETO DE CARVALHO FILHO",
+            "qtd": 154
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CARLOS LUIS TELES COUTINHO JUNIOR",
+            "qtd": 17
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ERNANDE PEREIRA LIMA",
+            "qtd": 12
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "DANIEL DE CARVALHO SILVA",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "FRANCISCO FANTANA SOARES DA SILVA",
+            "qtd": 15
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO BRANCO",
+            "qtd": 5
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "EDUARDO BRUNO RIOS RODRIGUES",
+            "qtd": 17
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "RONE PETESON DE LIMA",
+            "qtd": 17
+          }
+        ]
+      },
+      {
+        "secao": "85",
+        "votos": [
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELISANGELA MARIA DOS SANTOS MOURA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FERNANDA GABRIELLY COSTA GOMES",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PAULO CEZAR DE SOUSA MARTINS",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLORO MAUEL ALMEIDA PROBO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FLÁVIO RODRIGUES NOGUEIRA JÚNIOR",
+            "qtd": 32
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO NULO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ANA PAULA MENDES DE ARAUJO SANTANA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 17
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "LEONARDO EULÁLIO DE ARAÚJO LIMA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WELLINGTON  FRANCISCO RAULINO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO SAMUEL LIMA SILVEIRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "SÂMIA CRISTINA PEREIRA DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOEL RODRIGUES DA SILVA",
+            "qtd": 88
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JANAINNA PINTO MARQUES TAVARES",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "HELIO RODRIGUES ALVES",
+            "qtd": 105
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WILSON NUNES MARTINS",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARGARETE DE CASTRO COELHO",
+            "qtd": 24
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GEOVANEI MOTA BRITO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JEOVA BARBOSA DE CARVALHO ALENCAR",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOSE HELIO DE CARVALHO OLIVEIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "TIAGO MENDES VASCONCELOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "RUBENS DE SOUSA VIEIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ANTONIO HENRIQUE DE CARVALHO PIRES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VIVIANE MOURA BEZERRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FERNANDO JOSÉ ANTĂO MACHADO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOSÉ ICEMAR LAVÔR NÉRI",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "DIEGO GOMES MELO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 10
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "WILSON NUNES BRANDĂO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DIAS DE CASTRO NETO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PETRUS EVELYN MARTINS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO NIXON LOPES FROTA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FELIPE DE SOUZA REZENDE SAMPAIO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "SILAS FREIRE PEREIRA E SILVA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ZENAIDE FERREIRA DA SILVA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "SILVIO MENDES DE OLIVEIRA FILHO",
+            "qtd": 85
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PABLO DANTAS DE MOURA SANTOS",
+            "qtd": 19
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO DE ASSIS DE OLIVEIRA COSTA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "IDONEIL SANTANA MESQUITA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARIA DAS GRACAS DE MORAES SOUZA NUNES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "EVALDO GOMES DA SILVA",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JÉSSICA MONIQUE FREIRE LIMA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "RAFAEL TAJRA FONTELES",
+            "qtd": 126
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELIAS PEREIRA LOPES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SIMONE PEREIRA DE FARIAS ARAUJO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KLEBER MONTEZUMA FAGUNDES DOS SANTOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARCOS AURELIO PADUA RIBEIRO GONÇALVES DE SAMPAIO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO FERRAZ ARCOVERDE",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "BESSAH ARAUJO COSTA REIS SÁ",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 11
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "DANIEL PEREIRA DA SILVA MONTEIRO ROSA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANTONIO FRANCISCO FELIX DE ANDRADE",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOSE WELLINGTON BARROSO DE ARAUJO DIAS",
+            "qtd": 119
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KARLA RODRIGUES BERGER MARINHO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SEVERO MARIA EULALIO NETO",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELMANO FERRER DE ALMEIDA",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JADYEL SILVA ALENCAR",
+            "qtd": 10
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FRANCISCO JOSÉ ALVES DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "CARLOS AUGUSTO GOMES DE SOUZA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DE ANDRADE MAIA FILHO",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELZUILA ALVES CALISTO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCA CAMILA MARQUES DE ALMEIDA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO CÉSAR DE CARVALHO LIMA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "TERESA DOS SANTOS SOUSA BRITTO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLORENTINO ALVES VERAS NETO",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLAVIO RODRIGUES NOGUEIRA",
+            "qtd": 16
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MERLONG SOLANO NOGUEIRA",
+            "qtd": 81
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "RONE PETESON DE LIMA",
+            "qtd": 15
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JOSÉ RIBAMAR DE MESQUITA",
+            "qtd": 27
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DE JESUS MESQUITA ALVES",
+            "qtd": 32
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCOS JOSÉ BARBOSA DE SOUSA",
+            "qtd": 25
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CARLOS LUIS TELES COUTINHO JUNIOR",
+            "qtd": 9
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ERNANDE PEREIRA LIMA",
+            "qtd": 22
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JARDEL PEREIRA GOMES DA SILVA",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "FRANCISCO FANTANA SOARES DA SILVA",
+            "qtd": 14
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO BRANCO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "LUCIANO BARRETO DE CARVALHO FILHO",
+            "qtd": 141
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ELIZANGELA RODRIGUES DOS SANTOS",
+            "qtd": 20
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DO PERPETUO SOCORRO DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO NULO",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "GEORGE GOMES DA SILVA",
+            "qtd": 19
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "JOAQUIM ALVES DA SILVA",
+            "qtd": 114
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "REILLANY SOARES PESSOA",
+            "qtd": 21
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JAVANDA MIRANDA DE CARVALHO",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "DANIEL DE CARVALHO SILVA",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCELO BENTO MOTTA",
+            "qtd": 30
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "EDUARDO BRUNO RIOS RODRIGUES",
+            "qtd": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "GRUPO ESCOLAR JOÃO ALVES PITOMBEIRA",
+    "municipio": "HUGO NAPOLEÃO",
+    "bairro": "CENTRO",
+    "zona": "52",
+    "lat": -5.9862098,
+    "lng": -42.5643787,
+    "secoes": [
+      {
+        "secao": "47",
+        "votos": [
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 14
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "HÉLIO ISAIAS DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOSÉ ICEMAR LAVÔR NÉRI",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "SILVIO MENDES DE OLIVEIRA FILHO",
+            "qtd": 84
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARINA SANTOS BATISTA DIAS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VIVIANE MOURA BEZERRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLAVIO RODRIGUES NOGUEIRA",
+            "qtd": 14
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MERLONG SOLANO NOGUEIRA",
+            "qtd": 115
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARCOS VINICIUS CUNHA DIAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "REJANE RIBEIRO SOUSA DIAS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JANAINNA PINTO MARQUES TAVARES",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "TATIANA MARIA MELO GUIMARĂES",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "BESSAH ARAUJO COSTA REIS SÁ",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "EVALDO GOMES DA SILVA",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLORENTINO ALVES VERAS NETO",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARDEN LUIS BRITO CAVALCANTE E MENESES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELISVANIA RODRIGUES DA SILVA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PAULO CEZAR DE SOUSA MARTINS",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELIAS PEREIRA LOPES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "LUIZ HENRIQUE SOUSA DE CARVALHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JADYEL SILVA ALENCAR",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARIA DAS GRAÇAS DA SILVA AMORIM",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WILSON NUNES MARTINS",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOEL RODRIGUES DA SILVA",
+            "qtd": 89
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARGARETE DE CASTRO COELHO",
+            "qtd": 20
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOSE WELLINGTON BARROSO DE ARAUJO DIAS",
+            "qtd": 134
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KARLA RODRIGUES BERGER MARINHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARCOS AURELIO PADUA RIBEIRO GONÇALVES DE SAMPAIO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARIA DAS GRACAS DE MORAES SOUZA NUNES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 14
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GUSTAVO SOUSA DE NEIVA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "WILSON NUNES BRANDĂO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FRANCISCO JOSÉ ALVES DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 20
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ZENAIDE FERREIRA DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "LEONARDO EULÁLIO DE ARAÚJO LIMA",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELMANO FERRER DE ALMEIDA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO NULO",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "CARLOS AUGUSTO GOMES DE SOUZA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PABLO DANTAS DE MOURA SANTOS",
+            "qtd": 15
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "WARTON MATIAS LACERDA E OLIVEIRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ÁTILA DE MELO LIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "RAFAEL TAJRA FONTELES",
+            "qtd": 154
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KLEBER MONTEZUMA FAGUNDES DOS SANTOS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FELIPE DE SOUZA REZENDE SAMPAIO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO DE ASSIS DE OLIVEIRA COSTA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "HELIO RODRIGUES ALVES",
+            "qtd": 125
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JAMES GUERRA JUNIOR",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SAMANTHA CAVALCA SOBREIRA DUTRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "THIAGO GOMES DUARTE",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FERNANDA GABRIELLY COSTA GOMES",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EDWALDO VIANA LIMA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANTONIO DE ARAUJO MARTINS NETO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DIAS DE CASTRO NETO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Comunista Brasileiro",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Liberal",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Comunista do Brasil",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Solidariedade",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 16
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "DIEGO GOMES MELO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ANTONIO HENRIQUE DE CARVALHO PIRES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FLÁVIO RODRIGUES NOGUEIRA JÚNIOR",
+            "qtd": 37
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOĂO MADISON NOGUEIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANTONIO FRANCISCO FELIX DE ANDRADE",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DE ANDRADE MAIA FILHO",
+            "qtd": 16
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO FERRAZ ARCOVERDE",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELZUILA ALVES CALISTO",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOAO PAULO DA COSTA ARAUJO ALVES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ALDO GIL DE MEDEIROS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GEOVANEI MOTA BRITO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ FRANCISCO PAES LANDIM",
+            "qtd": 1
+          }
+        ]
+      },
+      {
+        "secao": "83",
+        "votos": [
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANTONIO FRANCISCO FELIX DE ANDRADE",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FERNANDA GABRIELLY COSTA GOMES",
+            "qtd": 13
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "DÂMARIS DA SILVA LEĂO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "GESSY KARLA LIMA BORGES FONSECA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GEORGIANO FERNANDES LIMA NETO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "LEONARDO EULÁLIO DE ARAÚJO LIMA",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELIAS PEREIRA LOPES",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FRANCISCO DAS CHAGAS LIMMA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELZUILA ALVES CALISTO",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PAULO CEZAR DE SOUSA MARTINS",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SAMANTHA CAVALCA SOBREIRA DUTRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PABLO DANTAS DE MOURA SANTOS",
+            "qtd": 13
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO NULO",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WILSON NUNES MARTINS",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARGARETE DE CASTRO COELHO",
+            "qtd": 14
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JAMES GUERRA JUNIOR",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "LIEGE DA CUNHA CAVALCANTE RIBEIRO GONCALVES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EDWALDO VIANA LIMA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DE ANDRADE MAIA FILHO",
+            "qtd": 10
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOĂO MADISON NOGUEIRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FLÁVIO RODRIGUES NOGUEIRA JÚNIOR",
+            "qtd": 35
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO NULO",
+            "qtd": 10
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "EVALDO GOMES DA SILVA",
+            "qtd": 10
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOEL RODRIGUES DA SILVA",
+            "qtd": 83
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "LÁZARO ROGÉRIO CARVALHO SOARES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOSE WELLINGTON BARROSO DE ARAUJO DIAS",
+            "qtd": 157
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARCOS AURELIO PADUA RIBEIRO GONÇALVES DE SAMPAIO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MIGUEL BORGES DE OLIVEIRA NETO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ÁTILA DE MELO LIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JADYEL SILVA ALENCAR",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "WILSON NUNES BRANDĂO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JANAÍNA MOURA EVANGELISTA DE MELO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VIVIANE MOURA BEZERRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLORENTINO ALVES VERAS NETO",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PAULO ROBERTO ALVES SOARES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "HELIO RODRIGUES ALVES",
+            "qtd": 134
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ROBSON BEZERRA RIBEIRO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLAVIO RODRIGUES NOGUEIRA",
+            "qtd": 25
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MERLONG SOLANO NOGUEIRA",
+            "qtd": 112
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO NIXON LOPES FROTA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EGÍDIO ISMAEL DE OLIVEIRA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "BESSAH ARAUJO COSTA REIS SÁ",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JANAINNA PINTO MARQUES TAVARES",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARDEN LUIS BRITO CAVALCANTE E MENESES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "REJANE RIBEIRO SOUSA DIAS",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GESSIVALDO ISAIAS DE CARVALHO SILVA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELISVANIA RODRIGUES DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARIA JOSÉ DA COSTA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "DIEGO GOMES MELO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "CARLOS AUGUSTO GOMES DE SOUZA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELMANO FERRER DE ALMEIDA",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "RAFAEL TAJRA FONTELES",
+            "qtd": 171
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FÁBIO ABREU COSTA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PETRUS EVELYN MARTINS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 15
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ZENAIDE FERREIRA DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KLEBER MONTEZUMA FAGUNDES DOS SANTOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "SILVIO MENDES DE OLIVEIRA FILHO",
+            "qtd": 76
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EDELTRUDES MENDES PESSOA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 15
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido Liberal",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Solidariedade",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Liberal",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Solidariedade",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO FERRAZ ARCOVERDE",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO CÉSAR DE CARVALHO LIMA",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "EDUARDO BRUNO RIOS RODRIGUES",
+            "qtd": 28
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO BRANCO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JARDEL PEREIRA GOMES DA SILVA",
+            "qtd": 5
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ELIZANGELA RODRIGUES DOS SANTOS",
+            "qtd": 27
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCELO BENTO MOTTA",
+            "qtd": 26
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCOS JOSÉ BARBOSA DE SOUSA",
+            "qtd": 24
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "FRANCISCO FANTANA SOARES DA SILVA",
+            "qtd": 10
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JOSÉ RIBAMAR DE MESQUITA",
+            "qtd": 19
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "IRISNEIDE GOMES DE CARVALHO",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "REILLANY SOARES PESSOA",
+            "qtd": 12
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "LUCIANO BARRETO DE CARVALHO FILHO",
+            "qtd": 160
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO NULO",
+            "qtd": 9
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO BRANCO",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DO PERPETUO SOCORRO DA SILVA",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ERNANDE PEREIRA LIMA",
+            "qtd": 26
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO NULO",
+            "qtd": 7
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "DANIEL DE CARVALHO SILVA",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "GEORGE GOMES DA SILVA",
+            "qtd": 27
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CARLOS LUIS TELES COUTINHO JUNIOR",
+            "qtd": 20
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "RONE PETESON DE LIMA",
+            "qtd": 15
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 5
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 7
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "JOAQUIM ALVES DA SILVA",
+            "qtd": 116
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DE JESUS MESQUITA ALVES",
+            "qtd": 24
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CAMILA CAROLAYNE PEREIRA DO NASCIMENTO",
+            "qtd": 2
+          }
+        ]
+      },
+      {
+        "secao": "45",
+        "votos": [
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JOSÉ RIBAMAR DE MESQUITA",
+            "qtd": 21
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ERNANDE PEREIRA LIMA",
+            "qtd": 23
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DE JESUS MESQUITA ALVES",
+            "qtd": 16
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "IRISNEIDE GOMES DE CARVALHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JAVANDA MIRANDA DE CARVALHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "DANIEL DE CARVALHO SILVA",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "HEVALDO ALVES DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO BRANCO",
+            "qtd": 5
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "EDUARDO BRUNO RIOS RODRIGUES",
+            "qtd": 12
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "JOAQUIM ALVES DA SILVA",
+            "qtd": 102
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CARLOS LUIS TELES COUTINHO JUNIOR",
+            "qtd": 17
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "FRANCISCO FANTANA SOARES DA SILVA",
+            "qtd": 16
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCELO BENTO MOTTA",
+            "qtd": 27
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "REILLANY SOARES PESSOA",
+            "qtd": 11
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "GEORGE GOMES DA SILVA",
+            "qtd": 31
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ELIZANGELA RODRIGUES DOS SANTOS",
+            "qtd": 29
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO NULO",
+            "qtd": 9
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCOS JOSÉ BARBOSA DE SOUSA",
+            "qtd": 17
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "RONE PETESON DE LIMA",
+            "qtd": 18
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO BRANCO",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 7
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Solidariedade",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "LUCIANO BARRETO DE CARVALHO FILHO",
+            "qtd": 155
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JARDEL PEREIRA GOMES DA SILVA",
+            "qtd": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "CÂMARA MUNICIPAL",
+    "municipio": "HUGO NAPOLEÃO",
+    "bairro": "CENTRO",
+    "zona": "52",
+    "lat": -5.989685,
+    "lng": -42.560115,
+    "secoes": [
+      {
+        "secao": "44",
+        "votos": [
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PAULO CEZAR DE SOUSA MARTINS",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELISANGELA MARIA DOS SANTOS MOURA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FERNANDA GABRIELLY COSTA GOMES",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EDWALDO VIANA LIMA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FERNANDA BOAVISTA RAMALHO GONDIM",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "SAMANTHA CAVALCA SOBREIRA DUTRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PABLO DANTAS DE MOURA SANTOS",
+            "qtd": 19
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FLÁVIO RODRIGUES NOGUEIRA JÚNIOR",
+            "qtd": 30
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JOĂO MADISON NOGUEIRA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JAMES GUERRA JUNIOR",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO NULO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "LEONARDO EULÁLIO DE ARAÚJO LIMA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WELLINGTON  FRANCISCO RAULINO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANTONIO MARCOS DA SILVA CARDOSO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WALLACE RODRIGUES DE HOLANDA MIRANDA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOEL RODRIGUES DA SILVA",
+            "qtd": 81
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "VOTO NULO",
+            "qtd": 9
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "MARCOS VINICIUS CUNHA DIAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JANAINNA PINTO MARQUES TAVARES",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "HELIO RODRIGUES ALVES",
+            "qtd": 124
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARGARETE DE CASTRO COELHO",
+            "qtd": 16
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "WILSON NUNES MARTINS",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "JEOVA BARBOSA DE CARVALHO ALENCAR",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "TIAGO MENDES VASCONCELOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "REJANE RIBEIRO SOUSA DIAS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "RUBENS DE SOUSA VIEIRA",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELIAS PEREIRA LOPES",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PROGRESSISTAS",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido Democrático Trabalhista",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 15
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELISVANIA RODRIGUES DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VINICIUS PONTES DO NASCIMENTO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GEORGIANO FERNANDES LIMA NETO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "RAVENNA DE CASTRO LIMA AZEVEDO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GUSTAVO SOUSA DE NEIVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "WILSON NUNES BRANDĂO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARINA SANTOS BATISTA DIAS",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KLEBER MONTEZUMA FAGUNDES DOS SANTOS",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DIAS DE CASTRO NETO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "PETRUS EVELYN MARTINS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "GESSIVALDO ISAIAS DE CARVALHO SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "EDELTRUDES MENDES PESSOA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "SILVIO MENDES DE OLIVEIRA FILHO",
+            "qtd": 80
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FRANCISCO DE ASSIS DE OLIVEIRA COSTA",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO BRANCO",
+            "qtd": 8
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "EVALDO GOMES DA SILVA",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ANA LINA NERES DA SILVA PINTO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "FÁBIO NÚŃEZ NOVO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "RAFAEL TAJRA FONTELES",
+            "qtd": 155
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FÁBIO ABREU COSTA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MARCOS AURELIO PADUA RIBEIRO GONÇALVES DE SAMPAIO",
+            "qtd": 4
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "MARIA DE LOURDES SOARES MELO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO FERRAZ ARCOVERDE",
+            "qtd": 5
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "BESSAH ARAUJO COSTA REIS SÁ",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "DANIEL PEREIRA DA SILVA MONTEIRO ROSA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "JOSE WELLINGTON BARROSO DE ARAUJO DIAS",
+            "qtd": 145
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "KARLA RODRIGUES BERGER MARINHO",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "VOTO BRANCO",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "GOVERNADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 6
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "ELMANO FERRER DE ALMEIDA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "TATIANA MARIA MELO GUIMARĂES",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JADYEL SILVA ALENCAR",
+            "qtd": 2
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JULIO CÉSAR DE CARVALHO LIMA",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "ELZUILA ALVES CALISTO",
+            "qtd": 3
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "JOSÉ DE ANDRADE MAIA FILHO",
+            "qtd": 19
+          },
+          {
+            "ano": 2022,
+            "cargo": "SENADOR",
+            "candidato": "VOTO NULO",
+            "qtd": 15
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO ESTADUAL",
+            "candidato": "TERESA DOS SANTOS SOUSA BRITTO",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "TERESINHA DE SOUSA MEDEIROS SANTOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLAVIO RODRIGUES NOGUEIRA",
+            "qtd": 7
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "MERLONG SOLANO NOGUEIRA",
+            "qtd": 112
+          },
+          {
+            "ano": 2022,
+            "cargo": "DEPUTADO FEDERAL",
+            "candidato": "FLORENTINO ALVES VERAS NETO",
+            "qtd": 7
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO NULO",
+            "qtd": 8
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "GEORGE GOMES DA SILVA",
+            "qtd": 18
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "FRANCISCO FANTANA SOARES DA SILVA",
+            "qtd": 19
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "FRANCISCA MARIA BORGES LEAL SANTOS",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CARLOS LUIS TELES COUTINHO JUNIOR",
+            "qtd": 22
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "JOAQUIM ALVES DA SILVA",
+            "qtd": 80
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "EDIVAR GOMES DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DO PERPETUO SOCORRO DA SILVA",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "VOTO NULO",
+            "qtd": 8
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "DANIEL DE CARVALHO SILVA",
+            "qtd": 4
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "CAMILA CAROLAYNE PEREIRA DO NASCIMENTO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ERNANDE PEREIRA LIMA",
+            "qtd": 24
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JAVANDA MIRANDA DE CARVALHO",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "REILLANY SOARES PESSOA",
+            "qtd": 15
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "VOTO BRANCO",
+            "qtd": 2
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCELO BENTO MOTTA",
+            "qtd": 29
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARCOS JOSÉ BARBOSA DE SOUSA",
+            "qtd": 27
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "ELIZANGELA RODRIGUES DOS SANTOS",
+            "qtd": 26
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "EDUARDO BRUNO RIOS RODRIGUES",
+            "qtd": 8
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JOSÉ RIBAMAR DE MESQUITA",
+            "qtd": 18
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "JARDEL PEREIRA GOMES DA SILVA",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "RONE PETESON DE LIMA",
+            "qtd": 15
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "IRISNEIDE GOMES DE CARVALHO",
+            "qtd": 1
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Partido dos Trabalhadores",
+            "qtd": 5
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "Movimento Democrático Brasileiro",
+            "qtd": 3
+          },
+          {
+            "ano": 2024,
+            "cargo": "Prefeito",
+            "candidato": "LUCIANO BARRETO DE CARVALHO FILHO",
+            "qtd": 163
+          },
+          {
+            "ano": 2024,
+            "cargo": "Vereador",
+            "candidato": "MARIA DE JESUS MESQUITA ALVES",
+            "qtd": 9
+          }
+        ]
+      }
+    ]
+  }
+]

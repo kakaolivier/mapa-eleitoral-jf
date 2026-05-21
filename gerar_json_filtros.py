@@ -1,111 +1,84 @@
 import json
-import os
 import pandas as pd
+import numpy as np
 from sqlalchemy import create_engine, URL
 
-# 1. CONFIGURAÇÃO DA CONEXÃO COM CREDENCIAIS REAIS
+# 1. CONFIGURAÇÃO DA CONEXÃO COM O BANCO
 url_banco = URL.create(
     drivername="postgresql",
     username="Carlos",
     password="C@3*07mo",
     host="localhost",
     port=5432,
-    database="eleicoes_db",
+    database="eleicoes_db"
 )
 
-# O SEGREDO ESTÁ AQUI: conectamos forçando o cliente a usar UTF-8 nativo
-engine = create_engine(url_banco, client_encoding="utf8")
+engine = create_engine(url_banco, client_encoding='utf8')
 
-
-def gerar_json_filtros():
-    print("Buscando dados do banco de dados...")
-
-    # Query que traz os dados estruturados do banco
+def gerar_json_ultra_compacto():
+    print("🚀 Buscando os dados no banco...")
     query = """
         SELECT 
-            nome_local, municipio, bairro, zona, latitude, longitude,
+            municipio, nome_local, latitude, longitude, bairro, zona,
             numero_secao, ano_eleicao, cargo, candidato, total_votos
-        FROM v_detalhe_votos; 
+        FROM v_detalhe_votos;
     """
-
-    # Executa a busca garantindo o charset correto
     df = pd.read_sql(query, engine)
 
-    # ... (o resto do código do script continua exatamente igual)
+    # Tratamento de valores nulos para evitar quebras no JSON
+    df['latitude'] = df['latitude'].replace({np.nan: None})
+    df['longitude'] = df['longitude'].replace({np.nan: None})
+    df['bairro'] = df['bairro'].fillna("")
+    df['zona'] = df['zona'].fillna("")
 
-    locais_dict = {}
-
-    print("Processando e estruturando a árvore do JSON...")
-    for _, row in df.iterrows():
-        # Garante que o texto vindo do banco seja interpretado como string limpa
-        nome_local = str(row["nome_local"]).strip()
-        municipio = str(row["municipio"]).strip()
-        bairro = str(row["bairro"]).strip() if pd.notna(row["bairro"]) else ""
-        zona = str(row["zona"])
-
-        id_local = f"{municipio}_{zona}_{nome_local}"
-
-        if id_local not in locais_dict:
-            lat_val = row["latitude"] if pd.notna(row["latitude"]) else None
-            lng_val = row["longitude"] if pd.notna(row["longitude"]) else None
-
-            locais_dict[id_local] = {
-                "nome": nome_local,
-                "municipio": municipio,
-                "bairro": bairro,
-                "zona": zona,
-                "lat": lat_val,
-                "lng": lng_val,
-                "secoes": {},
-            }
-
-        num_secao = str(row["numero_secao"])
-        if num_secao not in locais_dict[id_local]["secoes"]:
-            locais_dict[id_local]["secoes"][num_secao] = {
-                "secao": num_secao,
-                "votos": [],
-            }
-
-        locais_dict[id_local]["secoes"][num_secao]["votos"].append(
-            {
-                "ano": int(row["ano_eleicao"]),
-                "cargo": str(row["cargo"]).strip(),
-                "candidato": str(row["candidato"]).strip(),
-                "qtd": int(row["total_votos"]),
-            }
-        )
-
-    # Formata o dicionário em formato de lista pura para o Leaflet
-    dados_finais = []
-    for id_local, info in locais_dict.items():
+    print("📦 Compactando a estrutura em memória...")
+    dados_compactados = []
+    
+    # Agrupamos por Local Físico para evitar repetições exaustivas de strings
+    grouped_locais = df.groupby(['municipio', 'nome_local', 'bairro', 'zona'])
+    
+    for (mun, nome_local, bairro, zona), df_local in grouped_locais:
+        lat = df_local['latitude'].iloc[0]
+        lng = df_local['longitude'].iloc[0]
+        
+        lat = float(lat) if lat is not None else None
+        lng = float(lng) if lng is not None else None
+        
         secoes_lista = []
-        for num_sec, sec_info in info["secoes"].items():
-            secoes_lista.append(sec_info)
+        # Agrupamos por Seção Eleitoral dentro desse local
+        for num_secao, df_secao in df_local.groupby('numero_secao'):
+            votos_lista = []
+            for _, row in df_secao.iterrows():
+                # Formato posicional ultra-leve: [ano, cargo, candidato, total_votos]
+                votos_lista.append([
+                    int(row['ano_eleicao']),
+                    str(row['cargo']).strip(),
+                    str(row['candidato']).strip(),
+                    int(row['total_votos'])
+                ])
+            
+            secoes_lista.append({
+                "sec": str(num_secao),
+                "v": votos_lista
+            })
+            
+        # Montamos o dicionário usando mini-chaves (m, n, b, z, s)
+        dados_compactados.append({
+            "m": str(mun).strip(),
+            "n": str(nome_local).strip(),
+            "b": str(bairro).strip(),
+            "z": str(zona).strip(),
+            "lat": lat,
+            "lng": lng,
+            "s": secoes_lista
+        })
 
-        dados_finais.append(
-            {
-                "nome": info["nome"],
-                "municipio": info["municipio"],
-                "bairro": info["bairro"],
-                "zona": info["zona"],
-                "lat": float(info["lat"]) if info["lat"] is not None else None,
-                "lng": float(info["lng"]) if info["lng"] is not None else None,
-                "secoes": secoes_lista,
-            }
-        )
+    print("💾 Gravando e minificando o arquivo final...")
+    # O truque supremo: separators=(',', ':') remove espaços em branco estruturais
+    with open('dados_votos_ultra.json', 'w', encoding='utf-8') as f:
+        json.dump(dados_compactados, f, ensure_ascii=False, separators=(',', ':'))
 
-    # ======================================================================
-    # O PULO DO GATO: Gravação cirúrgica em UTF-8 sem re-decodificar os acentos
-    # ======================================================================
-    print("Gravando arquivo 'dados_votos.json' protegido em UTF-8...")
+    print("🎉 Sucesso! O arquivo 'dados_votos_ultra.json' foi gerado com tamanho reduzido.")
 
-    # Abrir com encoding='utf-8' impede que o Windows use o charset local dele (cp1252)
-    with open("dados_votos.json", "w", encoding="utf-8") as f:
-        # ensure_ascii=False impede o Python de transformar "José" em "\u00e5"
-        json.dump(dados_finais, f, ensure_ascii=False, indent=2)
-
-    print("🎉 JSON gerado com acentuação 100% preservada!")
-
-
-if __name__ == "__main__":
-    gerar_json_filtros()
+if __name__ == '__main__':
+    gerar_json_ultra_compacto()

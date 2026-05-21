@@ -90,8 +90,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
         }
 
-        th,
-        td {
+        th, td {
             padding: 10px 12px;
             border: 1px solid #eee;
             text-align: left;
@@ -130,59 +129,43 @@
         <div class="grid-filtros">
             <div class="filtro-item">
                 <label for="f-ano">Ano</label>
-                <select id="f-ano">
-                    <option value="TODOS">Todos</option>
-                </select>
+                <select id="f-ano"><option value="TODOS">Todos</option></select>
             </div>
             <div class="filtro-item">
                 <label for="f-municipio">Município</label>
-                <select id="f-municipio">
-                    <option value="TODOS">Todos</option>
-                </select>
+                <select id="f-municipio"><option value="TODOS">Todos</option></select>
             </div>
             <div class="filtro-item">
                 <label for="f-zona">Zona</label>
-                <select id="f-zona">
-                    <option value="TODOS">Todas</option>
-                </select>
+                <select id="f-zona"><option value="TODOS">Todas</option></select>
             </div>
             <div class="filtro-item">
                 <label for="f-bairro">Bairro</label>
-                <select id="f-bairro">
-                    <option value="TODOS">Todos</option>
-                </select>
+                <select id="f-bairro"><option value="TODOS">Todos</option></select>
             </div>
             <div class="filtro-item">
                 <label for="f-cargo">Cargo</label>
-                <select id="f-cargo">
-                    <option value="TODOS">Todos</option>
-                </select>
+                <select id="f-cargo"><option value="TODOS">Todos</option></select>
             </div>
             <div class="filtro-item">
                 <label for="f-secao">Seção</label>
-                <select id="f-secao">
-                    <option value="TODOS">Todas</option>
-                </select>
+                <select id="f-secao"><option value="TODOS">Todas</option></select>
             </div>
             <div class="filtro-item full-width">
                 <label for="f-candidato">Candidato</label>
-                <select id="f-candidato">
-                    <option value="TODOS">Todos os Candidatos</option>
-                </select>
+                <select id="f-candidato"><option value="TODOS">Todos os Candidatos</option></select>
             </div>
         </div>
 
         <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
 
         <div id="painel-resultados">
-            <p style="color: #777;">Clique em um local no mapa ou altere os filtros para ver os resultados detalhados.
-            </p>
+            <p style="color: #777;">Clique em um local no mapa ou altere os filtros para ver os resultados detalhados.</p>
         </div>
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        // Inicializa o mapa focado no Piauí
         const map = L.map('map').setView([-5.0920, -42.8034], 8);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors'
@@ -192,7 +175,6 @@
         let marcadoresGrupo = L.layerGroup().addTo(map);
         let localSelecionadoNoMapa = null;
 
-        // Captura os elementos dos filtros
         const fAno = document.getElementById('f-ano');
         const fMunicipio = document.getElementById('f-municipio');
         const fZona = document.getElementById('f-zona');
@@ -201,46 +183,46 @@
         const fSecao = document.getElementById('f-secao');
         const fCandidato = document.getElementById('f-candidato');
 
-        // Carrega o JSON
-        fetch('dados_votos.json?v=' + Date.now())
+        // Carrega o novo JSON ultra-compactado de uma vez só
+        fetch('dados_votos_ultra.json?v=' + Date.now())
             .then(response => response.json())
             .then(data => {
                 dadosGerais = data;
-                console.log("Dados carregados com sucesso:", dadosGerais[0]); // Para checagem no F12
+                console.log("Dados carregados com sucesso.");
                 populaFiltrosIniciais();
                 atualizarMapaEDetalhes();
             })
             .catch(err => console.error("Erro ao carregar JSON:", err));
 
-        // Popula as opções que não dependem de outras (Iniciais)
         function populaFiltrosIniciais() {
             let anos = new Set();
             let municipios = new Set();
             let cargos = new Set();
 
             dadosGerais.forEach(local => {
-                // Tratativa para aceitar chaves em Maiúsculo ou Minúsculo vindas do JSON
-                let mun = local.municipio || local.MUNICIPIO;
-                if (mun) municipios.add(mun);
+                if (local.m) municipios.add(local.m);
 
-                let secoes = local.secoes || local.SECOES || [];
+                let secoes = local.s || [];
                 secoes.forEach(sec => {
-                    let votos = sec.votos || sec.VOTOS || [];
+                    let votos = sec.v || [];
                     votos.forEach(v => {
-                        let ano = v.ano || v.ANO || v.ano_eleicao || v.ANO_ELEICAO;
-                        let cargo = v.cargo || v.CARGO;
-                        if (ano) anos.add(ano);
-                        if (cargo) cargos.add(cargo);
+                        if (v[0]) anos.add(v[0]); // v[0] = ano
+                        if (v[1]) cargos.add(v[1]); // v[1] = cargo
                     });
                 });
             });
 
+            // Correção de duplicação: reinicia os selects estruturais antes de popular
+            fAno.innerHTML = '<option value="TODOS">Todos</option>';
             Array.from(anos).sort((a, b) => b - a).forEach(ano => fAno.innerHTML += `<option value="${ano}">${ano}</option>`);
+            
+            fMunicipio.innerHTML = '<option value="TODOS">Todos</option>';
             Array.from(municipios).sort().forEach(mun => fMunicipio.innerHTML += `<option value="${mun}">${mun}</option>`);
+            
+            fCargo.innerHTML = '<option value="TODOS">Todos</option>';
             Array.from(cargos).sort().forEach(car => fCargo.innerHTML += `<option value="${car}">${car}</option>`);
         }
 
-        // Eventos de mudança nos filtros (Cascata dinâmica)
         fMunicipio.onchange = () => {
             localSelecionadoNoMapa = null;
             const munSelecionado = fMunicipio.value;
@@ -249,13 +231,9 @@
             let bairros = new Set();
 
             dadosGerais.forEach(local => {
-                let mun = local.municipio || local.MUNICIPIO;
-                let zona = local.zona || local.ZONA;
-                let bairro = local.bairro || local.BAIRRO;
-
-                if (munSelecionado === "TODOS" || mun === munSelecionado) {
-                    if (zona) zonas.add(zona);
-                    if (bairro) bairros.add(bairro);
+                if (munSelecionado === "TODOS" || local.m === munSelecionado) {
+                    if (local.z) zonas.add(local.z);
+                    if (local.b) bairros.add(local.b);
                 }
             });
 
@@ -275,7 +253,6 @@
         fZona.onchange = atualizarFiltroSecoes;
         fBairro.onchange = () => { atualizarFiltroSecoes(); };
 
-        // Atualiza dinamicamente as seções disponíveis
         function atualizarFiltroSecoes() {
             const munSelecionado = fMunicipio.value;
             const zonaSelecionada = fZona.value;
@@ -283,18 +260,13 @@
             let secoesSet = new Set();
 
             dadosGerais.forEach(local => {
-                let mun = local.municipio || local.MUNICIPIO;
-                let zona = local.zona || local.ZONA;
-                let bairro = local.bairro || local.BAIRRO;
-                let secoes = local.secoes || local.SECOES || [];
+                if ((munSelecionado === "TODOS" || local.m === munSelecionado) &&
+                    (zonaSelecionada === "TODOS" || local.z == zonaSelecionada) &&
+                    (bairroSelecionado === "TODOS" || local.b === bairroSelecionado)) {
 
-                if ((munSelecionado === "TODOS" || mun === munSelecionado) &&
-                    (zonaSelecionada === "TODOS" || zona == zonaSelecionada) &&
-                    (bairroSelecionado === "TODOS" || bairro === bairroSelecionado)) {
-
+                    let secoes = local.s || [];
                     secoes.forEach(sec => {
-                        let numSec = sec.numero_secao || sec.NUMERO_SECAO || sec.secao || sec.SECAO;
-                        if (numSec) secoesSet.add(numSec);
+                        if (sec.sec) secoesSet.add(sec.sec);
                     });
                 }
             });
@@ -305,7 +277,6 @@
             atualizarMapaEDetalhes();
         }
 
-        // Atualiza dinamicamente a lista de candidatos com base no ano e cargo
         function atualizarFiltroCandidatos() {
             const anoSelecionado = fAno.value;
             const cargoSelecionado = fCargo.value;
@@ -313,19 +284,14 @@
             let candidatos = new Set();
 
             dadosGerais.forEach(local => {
-                let mun = local.municipio || local.MUNICIPIO;
-                if (munSelecionado === "TODOS" || mun === munSelecionado) {
-                    let secoes = local.secoes || local.SECOES || [];
+                if (munSelecionado === "TODOS" || local.m === munSelecionado) {
+                    let secoes = local.s || [];
                     secoes.forEach(sec => {
-                        let votos = sec.votos || sec.VOTOS || [];
+                        let votos = sec.v || [];
                         votos.forEach(v => {
-                            let ano = v.ano || v.ANO || v.ano_eleicao || v.ANO_ELEICAO;
-                            let cargo = v.cargo || v.CARGO;
-                            let candidato = v.candidato || v.CANDIDATO || v.nome_candidato || v.NM_VOTAVEL;
-
-                            if ((anoSelecionado === "TODOS" || ano == anoSelecionado) &&
-                                (cargoSelecionado === "TODOS" || cargo === cargoSelecionado)) {
-                                if (candidato) candidatos.add(candidato);
+                            if ((anoSelecionado === "TODOS" || v[0] == anoSelecionado) &&
+                                (cargoSelecionado === "TODOS" || v[1] === cargoSelecionado)) {
+                                if (v[2]) candidatos.add(v[2]); // v[2] = candidato
                             }
                         });
                     });
@@ -341,12 +307,9 @@
         fSecao.onchange = atualizarMapaEDetalhes;
         fCandidato.onchange = atualizarMapaEDetalhes;
 
-// O MOTOR CENTRAL: Agora com trava de segurança para não travar o navegador
         function atualizarMapaEDetalhes() {
-            // 1. Limpa os marcadores antigos do mapa
             marcadoresGrupo.clearLayers();
 
-            // 2. Captura o estado atual dos filtros
             const filtro = {
                 ano: fAno.value,
                 municipio: fMunicipio.value,
@@ -357,100 +320,75 @@
                 candidato: fCandidato.value
             };
 
-            // ================================================================
-            // TRAVA DE SEGURANÇA: Verifica se TODOS os filtros estão em "TODOS"
-            // ================================================================
             const nenhumFiltroAtivo = (
-                filtro.ano === "TODOS" &&
-                filtro.municipio === "TODOS" &&
-                filtro.zona === "TODOS" &&
-                filtro.bairro === "TODOS" &&
-                filtro.cargo === "TODOS" &&
-                filtro.secao === "TODOS" &&
+                filtro.ano === "TODOS" && filtro.municipio === "TODOS" &&
+                filtro.zona === "TODOS" && filtro.bairro === "TODOS" &&
+                filtro.cargo === "TODOS" && filtro.secao === "TODOS" &&
                 filtro.candidato === "TODOS"
             );
 
             if (nenhumFiltroAtivo) {
-                // Se nenhum filtro foi acionado, limpa o painel lateral e para a execução aqui
                 const painel = document.getElementById('painel-resultados');
                 painel.innerHTML = `
                     <div style="text-align: center; margin-top: 30px; padding: 15px; border: 1px dashed #ccc; border-radius: 6px; background: #fafafa;">
                         <span style="font-size: 24px;">🔍</span>
                         <p style="color: #555; font-size: 14px; margin-top: 10px;">
                             <b>Nenhum filtro selecionado.</b><br>
-                            Selecione pelo menos um Ano, Município ou Cargo para carregar os pontos no mapa sem travamentos.
+                            Selecione pelo menos um Ano, Município ou Cargo para renderizar os marcadores de forma fluida.
                         </p>
                     </div>
                 `;
-                // Reseta a visão do mapa para o centro do Piauí sem plotar marcadores
                 map.setView([-5.0920, -42.8034], 7);
-                return; // 🛑 PARA AQUI! Não deixa o JavaScript ler o JSON pesado.
+                return;
             }
 
-            // ================================================================
-            // SE PASSOU DA TRAVA, PROCESSA OS DADOS NORMALMENTE (Super Leve)
-            // ================================================================
             let tabelaConsolidadaGlobal = {};
             let totalVotosFiltro = 0;
             let primeiroPontoValido = null;
 
             dadosGerais.forEach(local => {
-                let mun = local.municipio || local.MUNICIPIO;
-                let zona = local.zona || local.ZONA;
-                let bairro = local.bairro || local.BAIRRO;
-                let lat = local.lat || local.LAT || local.latitude || local.LATITUDE;
-                let lng = local.lng || local.LNG || local.longitude || local.LONGITUDE;
-                let nome = local.nome || local.NOME || local.nome_local;
-
-                if (filtro.municipio !== "TODOS" && mun !== filtro.municipio) return;
-                if (filtro.zona !== "TODOS" && zona != filtro.zona) return;
-                if (filtro.bairro !== "TODOS" && bairro !== filtro.bairro) return;
+                if (filtro.municipio !== "TODOS" && local.m !== filtro.municipio) return;
+                if (filtro.zona !== "TODOS" && local.z != filtro.zona) return;
+                if (filtro.bairro !== "TODOS" && local.b !== filtro.bairro) return;
 
                 let localTemVotoValido = false;
                 let tabelaLocal = {};
 
-                let secoes = local.secoes || local.SECOES || [];
+                let secoes = local.s || [];
                 secoes.forEach(sec => {
-                    let numSec = sec.numero_secao || sec.NUMERO_SECAO || sec.secao;
-                    if (filtro.secao !== "TODOS" && numSec != filtro.secao) return;
+                    if (filtro.secao !== "TODOS" && sec.sec != filtro.secao) return;
 
-                    let votos = sec.votos || sec.VOTOS || [];
+                    let votos = sec.v || [];
                     votos.forEach(v => {
-                        let ano = v.ano || v.ANO || v.ano_eleicao;
-                        let cargo = v.cargo || v.CARGO;
-                        let candidato = v.candidato || v.CANDIDATO || v.nome_candidato;
-                        let qtd = v.qtd || v.QTD || v.quantidade_votos || v.total_votos;
-
-                        if (filtro.ano !== "TODOS" && ano != filtro.ano) return;
-                        if (filtro.cargo !== "TODOS" && cargo !== filtro.cargo) return;
-                        if (filtro.candidato !== "TODOS" && candidato !== filtro.candidato) return;
+                        if (filtro.ano !== "TODOS" && v[0] != filtro.ano) return;
+                        if (filtro.cargo !== "TODOS" && v[1] !== filtro.cargo) return;
+                        if (filtro.candidato !== "TODOS" && v[2] !== filtro.candidato) return;
 
                         localTemVotoValido = true;
-                        let chave = `${ano}|${cargo}|${candidato}`;
+                        let chave = `${v[0]}|${v[1]}|${v[2]}`;
                         
-                        tabelaLocal[chave] = (tabelaLocal[chave] || 0) + parseInt(qtd);
-                        tabelaConsolidadaGlobal[chave] = (tabelaConsolidadaGlobal[chave] || 0) + parseInt(qtd);
-                        totalVotosFiltro += parseInt(qtd);
+                        tabelaLocal[chave] = (tabelaLocal[chave] || 0) + parseInt(v[3]);
+                        tabelaConsolidadaGlobal[chave] = (tabelaConsolidadaGlobal[chave] || 0) + parseInt(v[3]);
+                        totalVotosFiltro += parseInt(v[3]);
                     });
                 });
 
-                if (localTemVotoValido && lat && lng) {
-                    let latitudeNum = floatGarantido(lat);
-                    let longitudeNum = floatGarantido(lng);
+                if (localTemVotoValido && local.lat && local.lng) {
+                    let latitudeNum = floatGarantido(local.lat);
+                    let longitudeNum = floatGarantido(local.lng);
 
                     if (!primeiroPontoValido) primeiroPontoValido = [latitudeNum, longitudeNum];
 
                     const marker = L.marker([latitudeNum, longitudeNum]).addTo(marcadoresGrupo);
-                    marker.bindPopup(`<b>${nome}</b><br>${bairro || ''} - ${mun}`);
+                    marker.bindPopup(`<b>${local.n}</b><br>${local.b || ''} - ${local.m}`);
                     
                     marker.on('click', () => {
                         localSelecionadoNoMapa = local;
-                        renderizarPainelLateral(tabelaLocal, nome);
+                        renderizarPainelLateral(tabelaLocal, local.n);
                     });
                 }
             });
 
-            // Dá o zoom inteligente focado nos resultados filtrados
             if (filtro.municipio !== "TODOS" && primeiroPontoValido && !localSelecionadoNoMapa) {
                 map.setView(primeiroPontoValido, 12);
             } else if (primeiroPontoValido && !localSelecionadoNoMapa) {
@@ -468,27 +406,21 @@
             let tabelaLocal = {};
             let total = 0;
 
-            let secoes = localSelecionadoNoMapa.secoes || localSelecionadoNoMapa.SECOES || [];
-            let nome = localSelecionadoNoMapa.nome || localSelecionadoNoMapa.NOME || localSelecionadoNoMapa.nome_local || localSelecionadoNoMapa.NAME;
+            let secoes = localSelecionadoNoMapa.s || [];
+            let nome = localSelecionadoNoMapa.n;
 
             secoes.forEach(sec => {
-                let numSec = sec.numero_secao || sec.NUMERO_SECAO || sec.secao || sec.SECAO;
-                if (filtro.secao !== "TODOS" && numSec != filtro.secao) return;
+                if (filtro.secao !== "TODOS" && sec.sec != filtro.secao) return;
 
-                let votos = sec.votos || sec.VOTOS || [];
+                let votos = sec.v || [];
                 votos.forEach(v => {
-                    let ano = v.ano || v.ANO || v.ano_eleicao || v.ANO_ELEICAO;
-                    let cargo = v.cargo || v.CARGO;
-                    let candidato = v.candidato || v.CANDIDATO || v.nome_candidato || v.NM_VOTAVEL;
-                    let qtd = v.qtd || v.QTD || v.quantidade_votos || v.total_votos || v.QT_VOTOS;
+                    if (filtro.ano !== "TODOS" && v[0] != filtro.ano) return;
+                    if (filtro.cargo !== "TODOS" && v[1] !== filtro.cargo) return;
+                    if (filtro.candidato !== "TODOS" && v[2] !== filtro.candidato) return;
 
-                    if (filtro.ano !== "TODOS" && ano != filtro.ano) return;
-                    if (filtro.cargo !== "TODOS" && cargo !== filtro.cargo) return;
-                    if (filtro.candidato !== "TODOS" && candidato !== filtro.candidato) return;
-
-                    let chave = `${ano}|${cargo}|${candidato}`;
-                    tabelaLocal[chave] = (tabelaLocal[chave] || 0) + parseInt(qtd);
-                    total += parseInt(qtd);
+                    let chave = `${v[0]}|${v[1]}|${v[2]}`;
+                    tabelaLocal[chave] = (tabelaLocal[chave] || 0) + parseInt(v[3]);
+                    total += parseInt(v[3]);
                 });
             });
             renderizarPainelLateral(tabelaLocal, nome, total);
