@@ -183,37 +183,34 @@
         const fSecao = document.getElementById('f-secao');
         const fCandidato = document.getElementById('f-candidato');
 
-        // Carrega todas os pedaços do JSON em paralelo e junta tudo na memória
-        async function carregarTodosOsDados() {
-            try {
-                // 1. Descobre quantos pedaços existem
-                const manifestoRes = await fetch('manifesto.json?v=' + Date.now());
-                const manifesto = await manifestoRes.json();
-                const totalArquivos = manifesto.total_arquivos;
-
-                // 2. Cria uma lista de requisições (promessas) para baixar tudo junto
-                const requisicoes = [];
-                for (let i = 1; i <= totalArquivos; i++) {
-                    requisicoes.push(fetch(`dados_votos_${i}.json?v=${Date.now()}`).then(res => res.json()));
-                }
-
-                // 3. Aguarda todos os downloads terminarem
-                const partesDosDados = await Promise.all(requisicoes);
-
-                // 4. Junta todas as partes em uma única array na memória
-                dadosGerais = partesDosDados.flat();
-
-                print("Todos os dados carregados e unificados com sucesso!");
+        // Carrega o novo JSON ultra-compactado de uma vez só
+        fetch('dados_votos_ultra.json?v=' + Date.now())
+            .then(response => response.json())
+            .then(data => {
+                dadosGerais = data;
+                console.log("Dados carregados com sucesso.");
                 populaFiltrosIniciais();
                 atualizarMapaEDetalhes();
+            })
+            .catch(err => console.error("Erro ao carregar JSON:", err));
 
-            } catch (err) {
-                console.error("Erro ao carregar ou processar os pedaços do JSON:", err);
-            }
-        }
+        function populaFiltrosIniciais() {
+            let anos = new Set();
+            let municipios = new Set();
+            let cargos = new Set();
 
-        // Dispara o carregamento assim que a página abrir
-        carregarTodosOsDados();
+            dadosGerais.forEach(local => {
+                if (local.m) municipios.add(local.m);
+
+                let secoes = local.s || [];
+                secoes.forEach(sec => {
+                    let votos = sec.v || [];
+                    votos.forEach(v => {
+                        if (v[0]) anos.add(v[0]); // v[0] = ano
+                        if (v[1]) cargos.add(v[1]); // v[1] = cargo
+                    });
+                });
+            });
 
             // Correção de duplicação: reinicia os selects estruturais antes de popular
             fAno.innerHTML = '<option value="TODOS">Todos</option>';
